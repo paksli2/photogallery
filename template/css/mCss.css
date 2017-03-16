@@ -1,0 +1,132 @@
+body{
+	background-color: #f5f8f9;
+}
+
+
+img{
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.photoB{
+	margin: 5px;
+	border-radius: 4px;
+	padding: 4px;
+	width: 240px;
+	height: 300px;
+	float: left;
+	background-color:rgb(228, 228, 228);
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	z-index: 1;
+
+}
+
+
+
+.bigPhoto {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	display: none;
+}
+
+.bigPhoto.is-open{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.bigPhoto img {
+	width: 75%;
+    height: 75%;
+    object-fit: contain;
+    z-index: 100;
+}
+
+
+
+.el{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+input.inDescr{
+	border: 0px;
+    background-color: #bdb9b9;
+    width: 90%;
+    padding: 4px;
+    border-radius: 2px;
+    font-family: monospace;
+}
+input.inDescr:hover{
+	cursor: pointer;
+}
+
+input.submit{
+	visibility: hidden;
+}
+
+.submit,input.inDescr:focus + .submit{
+	visibility: visible;
+}
+
+.submit:hover{
+	visibility: visible;
+}
+
+
+
+.pagination{margin:0;padding:0;}
+/*.pagination li{
+	display: inline;
+	padding: 6px 10px 6px 10px;
+	border: 1px solid #ddd;
+	margin-right: -1px;
+	font: 15px/20px Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	box-shadow: inset 1px 1px 5px #F4F4F4;
+}
+.pagination li a{
+    text-decoration:none;
+    color: rgb(89, 141, 235);
+}
+.pagination li.first {
+    border-radius: 5px 0px 0px 5px;
+}
+.pagination li.last {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.pagination li.active{
+	background: #F0F0F0;
+	color: #333;
+}*/
+.pagination li a:hover{
+	background: #CFF;
+}
+
+
+.paginate{
+	margin-top: 10px;
+}

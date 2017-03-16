@@ -1,0 +1,4 @@
+# Compiled source #
+###################
+*.json
+db_params.php
